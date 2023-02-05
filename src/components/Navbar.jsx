@@ -11,6 +11,15 @@ const Navbar = () => {
           style={{ width: '48px', height: '48px', margin: '0 20px' }}
         />
       </Link>
+      <div className='links'>
+        <Link to='/'>Home</Link>
+        <a
+          href='#exercise'
+          style={{ textDecoration: 'none', color: '#3A1212' }}
+        >
+          Exercises
+        </a>
+      </div>
     </nav>
   )
 }
