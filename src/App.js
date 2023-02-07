@@ -8,7 +8,7 @@ import './app.css'
 
 const App = () => {
   return (
-    <div className='container max-w-screen-2xl my-5 overflow-x-hidden'>
+    <div className='container my-5 mx-5 overflow-x-hidden'>
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
