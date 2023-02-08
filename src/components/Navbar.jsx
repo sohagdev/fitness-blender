@@ -19,6 +19,7 @@ const Navbar = () => {
         </a>
       </div>
     </nav>
+    // I have to change myself and stop wandering around to start the grinding of coding
   )
 }
 
